@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StadtArray()
+comment1.params=r\ citiesNotInRoute
+comment1.target=void\ bruteForceFindBestRoute(java.util.ArrayList,\ java.util.ArrayList)
+comment2.params=
+comment2.target=int\ getRandomInt()
+comment3.params=r
+comment3.target=boolean\ isBestRoute(java.util.ArrayList)
+comment4.params=s1\ s2
+comment4.target=int\ entfernung(int,\ int)
+comment5.params=
+comment5.target=void\ entfernungsliste()
+comment6.params=
+comment6.target=void\ naechsteStadt()
+comment7.params=g
+comment7.target=void\ paint(java.awt.Graphics)
+numComments=8
