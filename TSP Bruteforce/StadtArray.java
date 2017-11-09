@@ -1,8 +1,9 @@
+import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-class StadtArray {
+class StadtArray extends JPanel{
     private int[][] entfernungen;
     private int anzahl = 10;
     private int gesamtlaenge = 6000;
@@ -33,7 +34,6 @@ class StadtArray {
                 citiesNotInRoute.add(justRemoved);
             }
         } else {
-
             possibleRoutes = route;
             entfernungsliste();
             getShortestRoute(route);
@@ -66,7 +66,6 @@ class StadtArray {
     }
 
     private void entfernungsliste() {
-
         for (int k = 0; k < anzahl; k++) {
 
             for (int i = 0; i < anzahl; i++) {
@@ -83,10 +82,9 @@ class StadtArray {
             else
                 shortestRoute.get(i).next = 0;
         }
-
     }
 
-    void paint(Graphics g) {
+    protected void paintComponent(Graphics g) {
         int next = 0;
         int x1, y1, x2, y2;
 
