@@ -13,6 +13,4 @@ public class StadtApp extends JApplet {
     public void paint(Graphics g) {
         randomCities.paint(g);
     }
-
-
 }
